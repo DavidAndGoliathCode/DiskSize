@@ -1,6 +1,7 @@
 # PowerShell script: list drives with size, used, free and percentages
 # This script has been created in partnership with my AI Buddy
 # this is a change test
+# This is collaberator adding a test to show GIT
 function Convert-Bytes {
     param([double]$Bytes)
     if ($Bytes -lt 1KB) { return "$Bytes B" }
